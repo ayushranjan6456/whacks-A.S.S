@@ -6,3 +6,8 @@ For installation of api:
 pip install youtube_transcript_api
 
 The code to extract the data is in the yt_api.py file.
+
+The web-app is available at the  url:
+
+https://whacksass.herokuapp.com/
+
