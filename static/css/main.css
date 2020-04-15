@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+input{
+    width: 500px;
+    padding: 12px;
+    border: none;
+}
+
+.btn{
+    width: 100px;
+    padding: 12px;
+}
+
+h1,h3,p{
+    text-align: center;
+}

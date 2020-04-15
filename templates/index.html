@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whacks-A.S.S</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+</head>
+<body>
+    <h1>Whack A.S.S</h1>
+    <h3>A simplified Notemaking application that generates the notes from any youtube video.</h3>
+    <form action="/" method="POST">
+         <div class="container">
+            <input type="text" name="video_id" placeholder="Enter Video ID here">
+            <input type="submit" class=" btn" value="Enter">
+        </div>
+    </form>
+    {% for your_list_element in file %}
+    <p>{{ your_list_element }} </p>
+    {% endfor %}
+</body>
+</html>
